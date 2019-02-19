@@ -1,6 +1,15 @@
 # labpy3
 
 # **Latihan 1**
+'''python
+from random import random
+n=input("masukan nilai N:")
+a=random()
+while (a<0.1):
+   a= a+1
+for i in range (0,6):
+	print("data ke:",i,"=>",a)
+'''
 penjelasan algoritma
 
 - [x] masukan nilai N =5
@@ -13,6 +22,16 @@ penjelasan algoritma
 
 ![hasilnya](https://github.com/rizwan523/labpy3/blob/master/1.png)
 # **Latihan 2**
+'''python
+max=0
+while True:
+	a= int(input("masukan bilagan : "))
+	if a==0:
+		break
+	if a>max:
+		max=a
+print("bilanga terbesar ",max)
+'''
 **penjelasan algoritma**
 - [x] masukan max=0
 
@@ -25,6 +44,25 @@ penjelasan algoritma
 ![hasilnya](https://github.com/rizwan523/labpy3/blob/master/2.png)
 
 # **Program 1**
+'''python
+a = 100000000
+
+for x in range(1,9):
+    if(x>=1 and x<=2):
+        b = a*0
+        print("Laba Bulan ke-",x," :",b)
+    if(x>=3 and x<=4):
+        c=a*0.1
+        print("Laba Bulan ke-",x," :",c)
+    if(x>=5 and x<=7):
+        d=a*0.5
+        print("Laba Bulan ke-",x," :",d)
+    if(x==8):
+        e=a*0.2
+        print("Laba Bulan ke-",x," :",e)
+total = b+b+c+c+d+d+d+e
+print("\ntotal : ", total)    
+'''
 **penjelasan algoritma**
 - [x] masukkan nilai a
 
